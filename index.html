@@ -3,7 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/pcn3kdf.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <section class="newsletter">
+      <h2 class="newsletter__title">Newsletter</h2>
+      <p class="newsletter__desc">
+        Wanna get more prepper tips? Sign up for our newsletter.
+      </p>
+      <form class="newsletter__form" action="#">
+        <div class="newsletter__container">
+          <label class="newsletter__label" for="newsletter-email-input"
+            >Email</label
+          >
+          <input
+            class="newsletter__input"
+            id="newsletter-email-input"
+            type="email"
+            placeholder="name@address.com"
+          />
+        </div>
+        <button class="newsletter__button">
+          Sign up<img src="./assets/button-arrows.svg" alt="arrows" />
+        </button>
+      </form>
+    </section>
+  </body>
 </html>
