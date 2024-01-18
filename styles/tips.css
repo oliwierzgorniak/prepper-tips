@@ -8,6 +8,8 @@
   margin: auto;
   margin-top: var(--section-margin);
   margin-bottom: var(--section-margin);
+  display: flex;
+  flex-direction: column;
 }
 
 .survey__title {
@@ -17,10 +19,6 @@
 .survey__desc {
   font-size: 1.25rem;
   margin-bottom: 3.4em;
-}
-
-.survey__form {
-  margin-bottom: 2em;
 }
 
 .survey__form-element-container {
@@ -71,4 +69,5 @@
 .survey__votes-number {
   font-size: 1.375rem;
   font-weight: 500;
+  align-self: end;
 }
