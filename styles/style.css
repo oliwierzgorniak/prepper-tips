@@ -39,9 +39,15 @@ body {
   color: var(--white);
 }
 
+a {
+  color: var(--white);
+}
+
 /* newsletter */
 .newsletter {
   text-align: center;
+  margin-top: 6em;
+  margin-bottom: 6em;
 }
 
 .newsletter__title {
@@ -86,4 +92,17 @@ body {
   gap: var(--button-arrow-gap);
   font-size: 0.875rem;
   padding: 0.8em 0.6em;
+  border: none;
+}
+
+/* footer */
+.footer {
+  background-color: var(--green);
+  display: flex;
+  padding: 2em 5em;
+  justify-content: space-between;
+}
+
+.footer__link {
+  font-size: 1.25rem;
 }
