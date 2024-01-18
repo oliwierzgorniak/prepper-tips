@@ -15,6 +15,7 @@
 
   /* others */
   --button-arrow-gap: 0.2em;
+  --section-margin: 6em;
 }
 
 *,
@@ -41,58 +42,6 @@ body {
 
 a {
   color: var(--white);
-}
-
-/* newsletter */
-.newsletter {
-  text-align: center;
-  margin-top: 6em;
-  margin-bottom: 6em;
-}
-
-.newsletter__title {
-  margin-bottom: 0.6em;
-}
-
-.newsletter__desc {
-  font-size: 1.25rem;
-  margin-bottom: 1.5em;
-}
-
-.newsletter__form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.newsletter__container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1.4em;
-}
-
-.newsletter__label {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 0.5em;
-}
-
-.newsletter__input {
-  border: 0.3em solid var(--green);
-  padding: 1em;
-  width: 32ch;
-}
-
-.newsletter__button {
-  width: max-content;
-  display: flex;
-  align-items: center;
-  background-color: var(--yellow);
-  font-weight: 700;
-  gap: var(--button-arrow-gap);
-  font-size: 0.875rem;
-  padding: 0.8em 0.6em;
-  border: none;
 }
 
 /* footer */
