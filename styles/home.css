@@ -1,8 +1,8 @@
 /* newsletter */
 .newsletter {
   text-align: center;
-  margin-top: var(--section-margin);
-  margin-bottom: var(--section-margin);
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 .newsletter__title {
@@ -33,19 +33,8 @@
 }
 
 .newsletter__input {
+  font-size: 1.125rem;
   border: 0.3em solid var(--green);
   padding: 1em;
-  width: 32ch;
-}
-
-.newsletter__button {
-  width: max-content;
-  display: flex;
-  align-items: center;
-  background-color: var(--yellow);
-  font-weight: 700;
-  gap: var(--button-arrow-gap);
-  font-size: 0.875rem;
-  padding: 0.8em 0.6em;
-  border: none;
+  width: 42ch;
 }

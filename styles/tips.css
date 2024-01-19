@@ -1,13 +1,47 @@
 /* articles */
 .articles {
+  margin: auto;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  max-width: 61.688rem;
+}
+
+.articles__title {
+  margin-bottom: 1.3em;
+}
+
+.articles__list-element {
+  display: flex;
+  gap: 2.7em;
+  margin-bottom: 5em;
+}
+
+.article__list-element--last {
+  margin-bottom: 0;
+}
+
+.articles__img {
+  width: 24.375rem;
+  height: 100%;
+}
+
+.articles__article-title {
+  font-family: var(--font-headers);
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 0.8em;
+}
+
+.articles__desc {
+  line-height: 150%;
+  margin-bottom: 1.8em;
 }
 
 /* survey */
 .survey {
   max-width: 40rem;
   margin: auto;
-  margin-top: var(--section-margin);
-  margin-bottom: var(--section-margin);
+  padding-bottom: var(--section-padding);
   display: flex;
   flex-direction: column;
 }

@@ -15,7 +15,7 @@
 
   /* others */
   --button-arrow-gap: 0.2em;
-  --section-margin: 6em;
+  --section-padding: 6em;
 }
 
 *,
@@ -28,6 +28,7 @@
 h1,
 h2 {
   font-family: var(--font-headers);
+  font-weight: 500;
 }
 
 h2 {
@@ -42,6 +43,21 @@ body {
 
 a {
   color: var(--white);
+}
+
+/* elements */
+.button {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  background-color: var(--yellow);
+  font-weight: 700;
+  gap: var(--button-arrow-gap);
+  font-size: 1.125rem;
+  padding: 0.8em 0.6em;
+  border: none;
+  color: var(--black);
+  text-decoration: none;
 }
 
 /* footer */
