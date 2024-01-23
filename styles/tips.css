@@ -93,6 +93,54 @@
   margin-bottom: 1.8em;
 }
 
+/* advice and resources */
+.advice-resources {
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  grid-template-rows: auto auto auto auto auto 2em;
+  margin: auto;
+  width: min-content;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
+.advice-resources__img11,
+.advice-resources__img13,
+.advice-resources__img15 {
+  grid-row: 1/7;
+}
+
+.advice-resources__img11 {
+  grid-column: 1/2;
+}
+
+.advice-resources__img13 {
+  grid-column: 3/4;
+}
+
+.advice-resources__img15 {
+  grid-column: 5/6;
+}
+
+.advice-resources__jars-img {
+  align-self: flex-end;
+}
+
+.advice-resources__section {
+  max-width: 30rem;
+  padding: 2em;
+}
+
+.advice-resources__title {
+  margin-bottom: 0.45em;
+}
+
+.advice-resources__desc {
+  line-height: 150%;
+  font-weight: 500;
+  margin-bottom: 2em;
+}
+
 /* survey */
 .survey {
   max-width: 40rem;
