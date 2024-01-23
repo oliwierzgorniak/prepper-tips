@@ -1,3 +1,75 @@
+/* header */
+.header {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.header__nav {
+  position: absolute;
+  top: 2.5em;
+  left: 4.5em;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 2em;
+  font-weight: 700;
+}
+
+.header__main-img {
+  width: 45%;
+  height: 100%;
+  align-self: end;
+}
+
+.header__left-container {
+  padding: 3.5em 0 4em 0;
+}
+
+.header__title-container {
+  display: flex;
+  align-items: end;
+}
+
+.header__title {
+  font-size: 8.125rem;
+  white-space: nowrap;
+}
+
+.header__ufo-img {
+  height: 100%;
+  margin-bottom: -3em;
+  margin-left: -6em;
+}
+
+.header__action-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
+  margin-left: 6em;
+  margin-top: 3em;
+  gap: 0.8em;
+}
+
+.header__action-button {
+  font-size: 2rem;
+  padding: 0.5em 0.6em;
+}
+
+.header__action-small-text {
+  font-size: 0.875rem;
+}
+
+.header__action-text {
+  white-space: nowrap;
+}
+
+.header__action-arrows {
+  margin-top: -0.4em;
+}
+
 /* target audience */
 .target-audience {
   background-color: var(--dark);
