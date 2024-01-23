@@ -124,6 +124,7 @@
 
 .advice-resources__jars-img {
   align-self: flex-end;
+  justify-self: center;
 }
 
 .advice-resources__section {

@@ -1,3 +1,39 @@
+/* target audience */
+.target-audience {
+  background-color: var(--dark);
+  padding: var(--section-padding) 0;
+}
+
+.target-audience__container {
+  display: flex;
+  gap: 2.5em;
+  margin: 0 auto;
+  max-width: 58.5rem;
+}
+
+.target-audience__title {
+  margin-bottom: 0.65em;
+}
+
+.target-audience__p {
+  font-weight: 500;
+  margin-bottom: 1.5em;
+}
+
+.target-audience__p strong {
+  color: var(--yellow);
+  font-weight: 700;
+}
+
+.target-audience__button {
+  margin-top: 1.5em;
+  font-size: 1.5rem;
+}
+
+.target-audience__img {
+  max-width: 50%;
+}
+
 /* newsletter */
 .newsletter {
   text-align: center;
