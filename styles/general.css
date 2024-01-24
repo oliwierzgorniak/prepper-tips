@@ -56,6 +56,10 @@ h2 {
   font-size: var(--text-size-header);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-body);
   background-color: var(--black);

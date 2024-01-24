@@ -4,8 +4,15 @@ const imgsCoords = [
 ];
 const transformOrigins = ["0% 0%", "100% 0%"];
 const tipsImgElement = document.querySelector("#tips-img");
+const tipsModalElement = document.querySelector(".tips__modal");
 
+let isZoomed = false;
 tipsImgElement.addEventListener("click", (e) => {
+  if (isZoomed) {
+    tipsImgElement.style.transform = "scale(1)";
+    return;
+  }
+
   const xPercent = e.offsetX / e.target.clientWidth;
   const yPercent = e.offsetY / e.target.clientHeight;
 
@@ -16,6 +23,8 @@ tipsImgElement.addEventListener("click", (e) => {
     if (xPercent >= x0 && xPercent <= x1 && yPercent >= y0 && yPercent <= y1) {
       tipsImgElement.style.transformOrigin = transformOrigins[i];
       tipsImgElement.style.transform = "scale(2)";
+      isZoomed = true;
+      tipsModalElement.style.opacity = 1;
     }
   });
 
