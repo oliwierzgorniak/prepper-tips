@@ -99,7 +99,7 @@
 }
 
 .articles__img {
-  width: 24.375rem;
+  max-width: 24.375rem;
   height: 100%;
 }
 

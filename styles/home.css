@@ -102,8 +102,36 @@
   font-size: 1.5rem;
 }
 
+.target-audience__imgs-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 23.125rem;
+}
+
 .target-audience__img {
-  max-width: 50%;
+  position: absolute;
+  width: 100%;
+  max-width: 23.125rem;
+}
+
+.target-audience__img--bg {
+  display: block;
+  position: static;
+}
+
+.target-audience__img--doors {
+  animation: doors-moving 8s forwards;
+}
+
+@keyframes doors-moving {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
 }
 
 /* newsletter */
