@@ -46,34 +46,107 @@
 .tips {
   overflow: hidden;
   background-color: var(--dark);
-  padding: 3em 0;
+  /* padding: 3em 0; */
   position: relative;
 }
 
 .tips__img {
-  /* transform-origin: 0% 50%; */
-  /* transform: scale(2); */
-  max-width: 90%;
-  height: 100%;
+  /* max-width: 90%; */
+  /* height: 100%; */
+  width: 100%;
   transition: all 2s;
   margin: auto;
   display: block;
-  padding: 0.5em;
+  /* padding: 0.5em; */
   -webkit-user-drag: none;
 }
 
 .tips__modal {
   position: absolute;
   top: 4.5em;
-  left: 45%;
-  max-width: 40%;
+  max-width: 42%;
   opacity: 0;
-  transition: all 0.5s;
+  transition: opacity 0.5s;
   transition-delay: 1s;
+  background-color: var(--black);
+  padding: 4em 3em;
+}
+
+.tips__modal--left {
+  left: 5%;
+}
+
+.tips__modal--right {
+  left: 45%;
 }
 
 .tips__modal-title {
   margin-bottom: 0.4em;
+}
+
+.tips__modal-top-container {
+  display: flex;
+}
+
+.tips__modal-close,
+.tips__challenge-close {
+  border: none;
+  background: none;
+  height: min-content;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.tips__modal-close-img {
+  width: 1.5rem;
+}
+
+.tips__modal-buttons-container {
+  display: flex;
+  gap: 1em;
+  margin-top: 2.1em;
+}
+
+.tips__modal-button {
+  font-size: 0.875rem;
+}
+
+.tips__modal-button--invite {
+  background: none;
+  border: 0.3em solid var(--yellow);
+  color: var(--yellow);
+}
+
+.tips__challenge {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(10, 10, 10, 0.41);
+}
+
+.tips__challenge-container {
+  background-color: var(--black);
+  padding: 3em;
+  display: flex;
+  gap: 1.5em;
+  flex-direction: column;
+  max-width: 35rem;
+}
+
+.tips__challenge-top-container {
+  display: flex;
+}
+
+.tips__challenge-textarea {
+  font-family: var(--font-body);
+  padding: 1em;
+  resize: none;
+  margin-top: 1em;
 }
 
 /* articles */
@@ -86,6 +159,12 @@
 
 .articles__title {
   margin-bottom: 1.3em;
+}
+
+.articles__list {
+  background-image: url(../assets/atomic-bomb-sign.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .articles__list-element {

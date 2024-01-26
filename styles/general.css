@@ -41,7 +41,8 @@
 
 /* general */
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--font-headers);
   font-weight: 500;
 }
@@ -52,7 +53,8 @@ h3 {
   letter-spacing: 0.03em;
 }
 
-h2 {
+h2,
+h3 {
   font-size: var(--text-size-header);
 }
 
@@ -74,6 +76,11 @@ p {
   line-height: 150%;
 }
 
+strong {
+  font-weight: 700;
+  color: var(--yellow);
+}
+
 /* elements */
 .button {
   width: max-content;
@@ -87,6 +94,7 @@ p {
   border: none;
   color: var(--black);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .button img {
