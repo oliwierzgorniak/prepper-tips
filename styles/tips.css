@@ -69,7 +69,7 @@
   transition: opacity 0.5s;
   transition-delay: 1s;
   background-color: var(--black);
-  padding: 4em 3em;
+  padding: 3em 3em 4em 3em;
 }
 
 .tips__modal--left {
@@ -81,7 +81,7 @@
 }
 
 .tips__modal-title {
-  margin-bottom: 0.4em;
+  margin-bottom: 0.6em;
 }
 
 .tips__modal-top-container {
@@ -133,7 +133,7 @@
   background-color: var(--black);
   padding: 3em;
   display: flex;
-  gap: 1.5em;
+  gap: 1em;
   flex-direction: column;
   max-width: 35rem;
 }
@@ -146,7 +146,7 @@
   font-family: var(--font-body);
   padding: 1em;
   resize: none;
-  margin-top: 1em;
+  margin-top: 1.2em;
 }
 
 /* articles */
