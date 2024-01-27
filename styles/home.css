@@ -1,10 +1,8 @@
 /* header */
 .header {
-  /* display: flex; */
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  /* position: relative; */
   overflow: hidden;
   padding-top: 2em;
 }
@@ -21,8 +19,6 @@
 }
 
 .header__main-img {
-  /* width: 45%; */
-  /* height: 100%; */
   width: 83%;
   align-self: end;
 }
@@ -47,6 +43,7 @@
   height: 100%;
   margin-bottom: -3em;
   margin-left: -6em;
+  width: 22.875rem;
 }
 
 .header__action-container {
